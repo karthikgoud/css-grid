@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr 50px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    /* background-color: lightblue; */
+    text-align: center;
+    color: rgb(38, 22, 123);
+}
+
+.header-section{
+
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-section h1{
+    /* background-color: aqua; */
+    margin-left: 20px;
+}
+
+.header-section ul{
+    /* background-color: aqua; */
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+
+.nav-bar{
+    background-color: slateblue;
+}
+
+main{
+    /* background-color: lightcoral; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+
+}
+
+footer{
+    /* background-color: blueviolet; */
+    text-align: center;
+
+}
+
+.container{
+    max-width: 900px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.main-section{
+    background-color: lightblue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+section h2,section p{
+    padding-bottom: 20px;
+}
+
+.footer-section{
+    background-color: steelblue;
+    color: white;
+}
+
+.main-top{
+    background-color: greenyellow;
+    padding: 20px;
+}
+.main-middle{
+    background-color: pink;
+    padding: 20px;
+
+}
+.main-bottom{
+    background-color: magenta;
+    padding: 20px;
+
+}
+
